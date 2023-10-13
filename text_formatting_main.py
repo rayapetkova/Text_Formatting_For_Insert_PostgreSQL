@@ -8,7 +8,7 @@ SECONDS_WAIT = 8
 
 print(f"*There is a file `cells_calculation.png` which shows what part of the table needs to be included in the calculation*")
 num_cells = int(input("How many cells does the table have? (You can calculate the number of cells by multiplying the number of columns by the number of rows): "))
-print(f"Go to Word, put you cursor at the end of the last cell in the table and wait {seconds_wait} seconds :)")
+print(f"Go to Word, put you cursor at the end of the last cell in the table and wait {SECONDS_WAIT} seconds :)")
 time.sleep(SECONDS_WAIT)
 
 keys_dict = {
