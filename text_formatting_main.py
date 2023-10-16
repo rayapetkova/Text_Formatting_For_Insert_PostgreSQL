@@ -11,6 +11,7 @@ num_cells = int(input("How many cells does the table have? (You can calculate th
 print(f"Go to Word, put you cursor at the end of the last cell in the table and wait {SECONDS_WAIT} seconds :)")
 time.sleep(SECONDS_WAIT)
 
+
 keys_dict = {
     'alt_l': Key.alt_l,
     'shift_l': Key.shift_l,
