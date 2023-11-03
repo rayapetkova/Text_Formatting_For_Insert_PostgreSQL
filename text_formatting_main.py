@@ -98,7 +98,9 @@ for i in range(len(new_list_copied_table)):
 
         if el_without_quotes == "NULL" or \
             (el_without_quotes.isdigit() and el_without_quotes[0] != '0') or \
-                (el_without_quotes.replace(".", "", 1).isdigit() and el_without_quotes.count(".") < 2 and el_without_quotes[0] != '0'):
+                (el_without_quotes.replace(".", "", 1).isdigit() and
+                 el_without_quotes.count(".") < 2 and
+                 el_without_quotes[0] != '0'):
             row_result_as_str += f"{el_without_quotes}"
         else:
             row_result_as_str += current_element
