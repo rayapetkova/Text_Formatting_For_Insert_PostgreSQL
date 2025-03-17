@@ -1,5 +1,5 @@
 # Text_Formatting_For_Insert_PostgreSQL
-## Форматиране на текст за insert в PostgreSQL
+## Форматиране на текст за insert в PostgreSQL - SoftUni PostgreSQL Course
 
 ❓Как се използва?
 1. Когато ръннете скрипта (`text_formatting_main.py`) трябва да преброите и напишете колко клетки има таблицата (без първия ред със имената на колоните)
